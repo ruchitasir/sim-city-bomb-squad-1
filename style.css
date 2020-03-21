@@ -3,4 +3,39 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  background-size: 100vw 100vh;
+}
+
+.unexploded{
+  background-image: url('./img/simcity.jpg');
+}
+
+.exploded{
+  background-image: url('./img/explosion.jpg');
+}
+
+#box {
+  background-color: #333;
+  padding: 30px 25px 40px 25px;
+  display: inline-block;
+  margin-top: 35px;
+  border: 3px solid gray ;
+  border-radius: 5px;
+}
+
+#timer{
+
+  color: chartreuse;
+  font-size: 36px;
+  background-color: black;
+  border-radius: 5px;
+}
+#start{
+  font-size: 36px;
+}
+
+#message{
+  font-size: 36px;
+  color: chartreuse;
+  background: linear-gradient(to bottom right, black, cornflowerblue);
 }
